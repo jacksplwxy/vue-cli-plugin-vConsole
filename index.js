@@ -1,7 +1,8 @@
-const VConsole_webpack = require('vconsole-webpack-plugin')
+const VConsoleWebPackPlugin = require('vconsole-webpack-plugin')
 
 module.exports = (api, projectOptions) => {
+    const { vconsole } = projectOptions.pluginOptions || {}
     api.configureWebpack(webpackConfig => {
-        webpackConfig.plugins.push(new VConsole_webpack(projectOptions.pluginOptions.vConsole || projectOptions.pluginOptions.vconsole))
+        webpackConfig.plugins.push(new VConsoleWebPackPlugin(vconsole))
     })
 }
