@@ -15,6 +15,7 @@ vue add vue-cli-plugin-vconsole2
 ```
 
 ## Tips
+The vConsole plugin is closed by default in production.
 You can use the options of the `vconsole-webpack-plugin` in the vue config like this:
 ``` JavaScript
 // vue.config.js or configure in the pagckage.json.
