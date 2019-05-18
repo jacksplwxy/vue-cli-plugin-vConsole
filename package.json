@@ -1,0 +1,29 @@
+{
+  "name": "vue-cli-plugin-vconsole2",
+  "version": "1.0.0",
+  "description": "the vConsole for Vue CLI3 plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksplwxy/vue-cli-plugin-vConsole.git"
+  },
+  "keywords": [
+    "vConsole",
+    "vue-cli-plugin",
+    "vue-cli3",
+    "vconsole",
+    "wechat"
+  ],
+  "author": "jacksplwxy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacksplwxy/vue-cli-plugin-vConsole/issues"
+  },
+  "homepage": "https://github.com/jacksplwxy/vue-cli-plugin-vConsole#readme",
+  "dependencies": {
+    "vconsole-webpack-plugin": "^1.4.2"
+  }
+}
